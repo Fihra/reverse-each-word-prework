@@ -9,7 +9,7 @@ def reverse_each_word(string)
   end
 
   split_words.collect do |rword|
-    loopLength = split_words.length
+    loopLength = string.length
     while loopLength > 0
       reversed_words << rword[rword.length-1]
       loopLength-=1
